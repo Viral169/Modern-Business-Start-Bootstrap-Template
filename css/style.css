@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  margin: 10px 0px;
+  color: white;
+}
+
+.head li {
+  margin: 5px 10px;
+}
+
+.sec-1 {
+  color: white;
+}
+
+.sec-2-box .i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.sec-4-card {
+  border-radius: 10px;
+}
+
+.sec-4-card > img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.ourteam .team-box > img {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.contact .row .i-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  width: 4rem;
+  font-size: 1.8rem;
+}
+
+.blog-post-right-4 .comment-card .comment-img>img{
+  width: 4rem;
+}
